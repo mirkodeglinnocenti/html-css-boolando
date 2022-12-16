@@ -39,16 +39,20 @@ img{
 
 /* HEADER */
 .main-header{
-    height: 40px;
     background-color: #FF6900;
+    padding: 12px 0;
 }
 
 .logo{
-    width: 100px;
+    width: 120px;
 }
 
-.main-header .col{
-    padding: 7px 0;
+/* FOOTER */
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 16px 0;
 }
 
 /********* 
