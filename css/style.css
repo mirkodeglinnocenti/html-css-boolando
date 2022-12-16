@@ -1,0 +1,40 @@
+/* RESET RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* GENERAL RULES */
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* HEADER */
+.main-header{
+    height: 40px;
+    background-color: #FF6900;
+}
+
+.logo{
+    width: 100px;
+}
+
+.main-header .col{
+    padding: 10px 0;
+}
+
+/********* 
+DEBUG RULES
+*********/
