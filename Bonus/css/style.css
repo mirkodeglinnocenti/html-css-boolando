@@ -191,3 +191,11 @@ DEBUG RULES
 .img6:hover{
     content: url('../img/6b.webp');
 }
+
+.main-header a:hover{
+    color: #000000;
+}
+
+.main-footer a:hover{
+    color: #FF6900;
+}
