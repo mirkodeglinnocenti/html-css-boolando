@@ -13,6 +13,16 @@ img{
     max-width: 100%;
 }
 
+ul,
+li,
+menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* GENERAL RULES */
 .container{
     margin: 0 auto;
@@ -21,7 +31,8 @@ img{
 
 .row{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -40,11 +51,30 @@ img{
 /* HEADER */
 .main-header{
     background-color: #FF6900;
-    padding: 12px 0;
+    padding: 14px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo{
     width: 120px;
+}
+
+.col{
+    display: flex;
+    gap: 7px;
+}
+
+.col-center{
+    display: flex;
+    justify-content: center;
+}
+
+.main-header a{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 /* FOOTER */
@@ -58,10 +88,6 @@ img{
 /********* 
 DEBUG RULES
 *********/
-.main-content{
-    padding: 40px 0;
-}
-
 .debug .main-content .col{
     background-color: #eee;
     min-height: 400px;
@@ -70,6 +96,10 @@ DEBUG RULES
 /* MAIN CONTENT */
 .main-content .row{
     gap: 20px;
+}
+
+.main-content{
+    padding: 40px 0;
 }
 
 /* CARD */

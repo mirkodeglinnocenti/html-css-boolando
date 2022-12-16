@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug-">
 
@@ -16,11 +17,29 @@
     <header class="main-header">
         <div class="container">
             <div class="row">
-                <div class="col">
+
+                <nav>
+                    <ul class="col">
+                        <li><a href="#">Donna</a></li>
+                        <li><a href="#">Uomo</a></li>
+                        <li><a href="#">Bambini</a></li>
+                    </ul>
+                </nav>
+
+                <div class="col-grow col-center">
                     <a href="#">
                         <img class="logo" src="./img/boolean-logo.png" alt="logo boolean">
                     </a>
                 </div>
+
+                <div>
+                    <ul class="col">
+                        <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </header>
@@ -111,7 +130,7 @@
 
                         <div class="card-img">
 
-                            <img src="./img/3.webp" alt="">
+                            <img class="hover-img" src="./img/3.webp" alt="">
 
                             <div class="card-tag">
                                 <p class="tag-single bg-red">-30&percnt;</p>
