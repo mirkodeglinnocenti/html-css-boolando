@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 img{
     max-width: 100%;
 }
@@ -12,14 +16,26 @@ img{
 /* GENERAL RULES */
 .container{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.col-30{
+    flex-basis: calc( (100%/3) - 20px);
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-red{
+    background-color: red;
+}
 
 /* HEADER */
 .main-header{
@@ -32,9 +48,66 @@ img{
 }
 
 .main-header .col{
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 /********* 
 DEBUG RULES
 *********/
+.main-content{
+    padding: 40px 0;
+}
+
+.debug .main-content .col{
+    background-color: #eee;
+    min-height: 400px;
+}
+
+/* MAIN CONTENT */
+.main-content .row{
+    gap: 20px;
+}
+
+/* CARD */
+.card-description{
+    padding: 5px 0;
+}
+
+.card-img{
+    position: relative;
+}
+
+.black-price{
+    text-decoration: line-through;
+}
+
+.red-price{
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card-tag{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tag-single{
+    line-height: 20px;
+    padding: 0 8px;
+}
+
+.card-heart{
+    font-size: 30px;
+    padding: 0 10px;
+    line-height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
