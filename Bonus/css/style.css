@@ -127,6 +127,10 @@ DEBUG RULES
     padding: 2px 0;
 }
 
+.card-category{
+    font-size: 12px;
+}
+
 .card-img{
     position: relative;
 }
